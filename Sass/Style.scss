@@ -47,6 +47,7 @@
                 font-weight: 300;
                 font-size: 28;
                 cursor: pointer;
+                margin-left: 10px;
             }
 
             button:nth-child(2) {
@@ -136,7 +137,24 @@
             }
 
             .features {
-                width: 400px;
+                width: 570px;
+                button{
+                    background-color: #F2F4F8;
+                    color: #B9B5B2;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 300;
+                    font-size: 17px;
+                    border-style: none;
+                    border-radius: 5px;
+                    margin-right: 10px;
+                    padding: 15px 28px;
+                    margin-bottom: 15px;
+                }
+                button:hover{
+                    background-color: white;
+                    color: green;
+                    font-size: 25px;
+                }
             }
 
         }
