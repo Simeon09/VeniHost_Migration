@@ -1,6 +1,6 @@
 .landingContainer {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 
     .navBar {
         display: flex;
@@ -73,5 +73,29 @@
             
             
         }
+    }
+    .sectionTwo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        //width: 1600px;
+        div:nth-child(1){
+            h1{
+
+                font-family: "Poppins", sans-serif;
+                    font-weight: 900;
+                    font-style: bold;
+                    font-size: 80px;
+                    color: green;
+                    width: 650px;
+            }
+                
+        }
+         div:nth-child(2){
+            img{
+                width: 80%;
+            }
+         }
     }
 }

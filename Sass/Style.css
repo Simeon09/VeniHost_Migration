@@ -1,6 +1,6 @@
 .landingContainer {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .landingContainer .navBar {
@@ -87,5 +87,31 @@
 .landingContainer .navBar > div:nth-child(3) .Btn2:hover {
   background-color: white;
   color: green;
+}
+
+.landingContainer .sectionTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+}
+
+.landingContainer .sectionTwo div:nth-child(1) h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: bold;
+  font-size: 80px;
+  color: green;
+  width: 650px;
+}
+
+.landingContainer .sectionTwo div:nth-child(2) img {
+  width: 80%;
 }
 /*# sourceMappingURL=Style.css.map */
