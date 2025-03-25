@@ -109,6 +109,49 @@
   font-size: 80px;
   color: green;
   width: 650px;
+  margin: 0px;
+}
+
+.landingContainer .sectionTwo div:nth-child(1) p {
+  font-family: "Montserrat", sans-serif;
+  color: #A1A1A1;
+  font-size: 34px;
+  width: 500px;
+}
+
+.landingContainer .sectionTwo div:nth-child(1) .SearchBar {
+  padding-bottom: 20px;
+}
+
+.landingContainer .sectionTwo div:nth-child(1) .SearchBar .input {
+  padding: 10px;
+  background-color: #F2F4F8;
+  color: #A5A5A5;
+  width: 400px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  border-style: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.landingContainer .sectionTwo div:nth-child(1) .SearchBar .btn3 {
+  padding: 20px 18px;
+  color: white;
+  background-color: green;
+  border-style: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.landingContainer .sectionTwo div:nth-child(1) .SearchBar .btn3:hover {
+  background-color: white;
+  color: green;
+}
+
+.landingContainer .sectionTwo div:nth-child(1) .features {
+  width: 400px;
 }
 
 .landingContainer .sectionTwo div:nth-child(2) img {

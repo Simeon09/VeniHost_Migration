@@ -48,6 +48,7 @@
                 font-size: 28;
                 cursor: pointer;
             }
+
             button:nth-child(2) {
                 color: #F98149;
                 padding: 10px 40px 10px 40px;
@@ -62,40 +63,88 @@
             }
 
             button:hover {
-                 background-color: green;
- 
-             }
-             .Btn2:hover{
+                background-color: green;
+
+            }
+
+            .Btn2:hover {
                 background-color: white;
                 color: green;
-             }
-                
-            
-            
+            }
+
+
+
         }
     }
-    .sectionTwo{
+
+    .sectionTwo {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding-top: 20px;
+
         //width: 1600px;
-        div:nth-child(1){
-            h1{
+        div:nth-child(1) {
+            h1 {
 
                 font-family: "Poppins", sans-serif;
-                    font-weight: 900;
-                    font-style: bold;
-                    font-size: 80px;
-                    color: green;
-                    width: 650px;
+                font-weight: 900;
+                font-style: bold;
+                font-size: 80px;
+                color: green;
+                width: 650px;
+                margin: 0px;
             }
+
+            p {
+                font-family: "Montserrat", sans-serif;
+                color: #A1A1A1;
+                font-size: 34px;
+                width: 500px;
+            }
+
+            .SearchBar {
+                padding-bottom: 20px;
                 
+
+                .input {
+                    padding: 10px;
+                    background-color: #F2F4F8;
+                    color: #A5A5A5;
+                    width: 400px;
+
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 200;
+                    font-size: 18px;
+                    border-style: none;
+                    border-radius: 5px;
+                    margin-right: 10px;
+
+                }
+                .btn3{
+                    padding: 20px 18px;
+                    color: white;
+                    background-color: green;
+                    border-style: none;
+                    border-radius: 10px;
+                    cursor: pointer;
+                }
+                .btn3:hover{
+                    background-color: white;
+                    color: green;
+                }
+            }
+
+            .features {
+                width: 400px;
+            }
+
         }
-         div:nth-child(2){
-            img{
+
+        div:nth-child(2) {
+            img {
                 width: 80%;
             }
-         }
+        }
     }
 }
