@@ -1,0 +1,352 @@
+.landingContainer {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.landingContainer .navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+}
+
+.landingContainer .navBar > div:nth-child(1) img {
+  width: 50%;
+}
+
+.landingContainer .navBar > div:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  color: #8A948C;
+}
+
+.landingContainer .navBar > div:nth-child(2) ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 700px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 22;
+}
+
+.landingContainer .navBar > div:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 50px;
+}
+
+.landingContainer .navBar > div:nth-child(3) button:nth-child(1) {
+  color: #F98149;
+  padding: 10px 40px 10px 40px;
+  background-color: #fff;
+  border-color: green;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 28;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.landingContainer .navBar > div:nth-child(3) button:nth-child(2) {
+  color: #F98149;
+  padding: 10px 40px 10px 40px;
+  color: #ffff;
+  border-color: green;
+  background-color: green;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 28;
+  cursor: pointer;
+}
+
+.landingContainer .navBar > div:nth-child(3) button:hover {
+  background-color: green;
+}
+
+.landingContainer .navBar > div:nth-child(3) .Btn2:hover {
+  background-color: white;
+  color: green;
+}
+
+.landingContainer .sectionTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+}
+
+.landingContainer .sectionTwo div:nth-child(1) h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: bold;
+  font-size: 80px;
+  color: green;
+  width: 650px;
+  margin: 0px;
+}
+
+.landingContainer .sectionTwo div:nth-child(1) p {
+  font-family: "Montserrat", sans-serif;
+  color: #A1A1A1;
+  font-size: 34px;
+  width: 500px;
+}
+
+.landingContainer .sectionTwo div:nth-child(1) .SearchBar {
+  padding-bottom: 20px;
+}
+
+.landingContainer .sectionTwo div:nth-child(1) .SearchBar .input {
+  padding: 10px;
+  background-color: #F2F4F8;
+  color: #A5A5A5;
+  width: 400px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  border-style: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.landingContainer .sectionTwo div:nth-child(1) .SearchBar .btn3 {
+  padding: 20px 18px;
+  color: white;
+  background-color: green;
+  border-style: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.landingContainer .sectionTwo div:nth-child(1) .SearchBar .btn3:hover {
+  background-color: white;
+  color: green;
+}
+
+.landingContainer .sectionTwo div:nth-child(1) .features {
+  width: 570px;
+}
+
+.landingContainer .sectionTwo div:nth-child(1) .features button {
+  background-color: #F2F4F8;
+  color: #B9B5B2;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  border-style: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 15px 28px;
+  margin-bottom: 15px;
+}
+
+.landingContainer .sectionTwo div:nth-child(1) .features button:hover {
+  background-color: white;
+  color: green;
+  font-size: 25px;
+}
+
+.landingContainer .sectionTwo div:nth-child(2) img {
+  width: 80%;
+}
+
+.landingContainer .sectionThree {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landingContainer .sectionThree div:nth-child(1) h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: bold;
+  font-size: 60px;
+  color: green;
+}
+
+.landingContainer .sectionThree div:nth-child(2) img {
+  width: 700px;
+}
+
+.landingContainer .sectionFour {
+  padding-top: 50px;
+}
+
+.landingContainer .sectionFour > h1 {
+  font-family: "poppins";
+  font-size: 25px;
+  color: black;
+  font-weight: 400;
+  letter-spacing: 10px;
+}
+
+.landingContainer .sectionFour .FouthSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landingContainer .sectionFour .FouthSection .skill {
+  color: green;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  width: 600px;
+  font-weight: bold;
+}
+
+.landingContainer .sectionFour .FouthSection .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 50px;
+}
+
+.landingContainer .sectionFour .FouthSection .icon span:nth-child(1) {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landingContainer .sectionFour .FouthSection .icon span:nth-child(1) p {
+  text-align: center;
+  padding-left: 60px;
+}
+
+.landingContainer .sectionFour .FouthSection .icon .iconfour p {
+  text-align: center;
+  padding-left: 60px;
+}
+
+.landingContainer .sectionFive {
+  padding-top: 70px;
+  position: relative;
+}
+
+.landingContainer .sectionFive .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  background-color: #F98149;
+  text-align: center;
+  width: 400px;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 1;
+  right: 50px;
+  left: 50px;
+  top: 35px;
+  color: white;
+  border-radius: 20px;
+}
+
+.landingContainer .sectionFive .eclipse {
+  position: absolute;
+  top: -50px;
+  right: -58px;
+  z-index: -1;
+}
+
+.landingContainer .sectionFive .card {
+  background-color: #003F7D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px 40px 100px 40px;
+  border-radius: 20px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.landingContainer .sectionFive .card p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.landingContainer .sectionFive .card i {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 25px;
+}
+
+.landingContainer .sectionFive .card p:nth-of-type(2) {
+  font-size: 15px;
+}
+
+.landingContainer .sectionFive .card .iconTwo {
+  border-color: #F98149;
+  border-width: 5px;
+  border-style: solid;
+  padding: 10px;
+  border-width: 5px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.landingContainer .sectionFive .card span:not(:first-child):not(:last-child):nth-of-type(odd) {
+  margin-top: 70px;
+}
+/*# sourceMappingURL=Style.css.map */

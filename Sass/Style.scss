@@ -1,0 +1,336 @@
+@import 'variables';
+
+.landingContainer {
+    padding-left: 50px;
+    padding-right: 50px;
+
+    .navBar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+
+        >div:nth-child(1) {
+            img {
+                width: 50%;
+            }
+        }
+
+        >div:nth-child(2) {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            color: #8A948C;
+
+            ul {
+                list-style-type: none;
+                display: flex;
+                justify-content: space-between;
+                width: 700px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 500;
+                font-style: medium;
+                font-size: 22;
+            }
+        }
+
+        >div:nth-child(3) {
+            display: flex;
+            justify-content: space-around;
+            gap: 50px;
+
+            button:nth-child(1) {
+                color: #F98149;
+                padding: 10px 40px 10px 40px;
+                background-color: #fff;
+                border-color: green;
+                border-radius: 5px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 300;
+                font-size: 28;
+                cursor: pointer;
+                margin-left: 10px;
+            }
+
+            button:nth-child(2) {
+                color: #F98149;
+                padding: 10px 40px 10px 40px;
+                color: #ffff;
+                border-color: green;
+                background-color: green;
+                border-radius: 5px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 300;
+                font-size: 28;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: green;
+
+            }
+
+            .Btn2:hover {
+                background-color: white;
+                color: green;
+            }
+
+
+
+        }
+    }
+
+    .sectionTwo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+
+        //width: 1600px;
+        div:nth-child(1) {
+            h1 {
+
+                font-family: "Poppins", sans-serif;
+                font-weight: 900;
+                font-style: bold;
+                font-size: 80px;
+                color: green;
+                width: 650px;
+                margin: 0px;
+            }
+
+            p {
+                font-family: "Montserrat", sans-serif;
+                color: #A1A1A1;
+                font-size: 34px;
+                width: 500px;
+            }
+
+            .SearchBar {
+                padding-bottom: 20px;
+
+
+                .input {
+                    padding: 10px;
+                    background-color: #F2F4F8;
+                    color: #A5A5A5;
+                    width: 400px;
+
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 200;
+                    font-size: 18px;
+                    border-style: none;
+                    border-radius: 5px;
+                    margin-right: 10px;
+
+                }
+
+                .btn3 {
+                    padding: 20px 18px;
+                    color: white;
+                    background-color: green;
+                    border-style: none;
+                    border-radius: 10px;
+                    cursor: pointer;
+                }
+
+                .btn3:hover {
+                    background-color: white;
+                    color: green;
+                }
+            }
+
+            .features {
+                width: 570px;
+
+                button {
+                    background-color: #F2F4F8;
+                    color: #B9B5B2;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 300;
+                    font-size: 17px;
+                    border-style: none;
+                    border-radius: 5px;
+                    margin-right: 10px;
+                    padding: 15px 28px;
+                    margin-bottom: 15px;
+                }
+
+                button:hover {
+                    background-color: white;
+                    color: green;
+                    font-size: 25px;
+                }
+            }
+
+        }
+
+        div:nth-child(2) {
+            img {
+                width: 80%;
+            }
+        }
+    }
+
+    .sectionThree {
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        div:nth-child(1) {
+            h1 {
+                font-family: "Poppins", sans-serif;
+                font-weight: 900;
+                font-style: bold;
+                font-size: 60px;
+                color: green;
+                // width: 500px;
+                // margin: 0px;
+
+            }
+        }
+
+        div:nth-child(2) {
+            img {
+                width: 700px;
+            }
+        }
+    }
+
+    .sectionFour {
+        padding-top: 50px;
+
+        >h1 {
+            font-family: "poppins";
+            font-size: 25px;
+            color: $Second_textcolour;
+            font-weight: 400;
+            letter-spacing: 10px;
+        }
+
+        .FouthSection {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .skill {
+                color: $text-colour;
+                font-family: $font-family;
+                font-size: 60px;
+                width: 600px;
+                font-weight: bold;
+            }
+
+            .icon {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-bottom: 50px;
+
+                span:nth-child(1) {
+                    align-items: center;
+
+                    p {
+                        text-align: center;
+                        padding-left: 60px;
+                    }
+                }
+
+                .iconfour {
+                    p {
+
+                        text-align: center;
+                        padding-left: 60px;
+                    }
+                }
+            }
+        }
+    }
+
+    .sectionFive {
+        padding-top:
+            70px;
+        position: relative;
+
+
+        .title {
+            font-family: $font-family;
+            font-size: 18px;
+            background-color: #F98149;
+            text-align: center;
+            width: 400px;
+            height: 55px; // Add height to center vertically
+            display: flex; // Make it a flex container
+            justify-content: center; // Center horizontally
+            align-items: center; // Center vertically
+            margin: 0 auto;
+            position: absolute;
+            z-index: 1;
+            right: 50px;
+            left: 50px;
+            top: 35px;
+            color: white;
+            border-radius: 20px;
+
+        }
+
+        .eclipse {
+            position: absolute;
+            top: -50px;
+            right: -58px;
+            z-index: -1;
+
+        }
+
+        .card {
+            background-color: #003F7D;
+            display: flex;
+            justify-content: space-between;
+            padding: 100px 40px 100px 40px;
+            border-radius: 20px;
+            text-align: center;
+            align-items: center;
+            position: relative;
+
+            p {
+                font-family: $font-family;
+                font-size: 20px;
+                color: white;
+            }
+
+            i {
+                align-self: center;
+                padding: 25px;
+            }
+
+            p:nth-of-type(2) {
+                font-size: 15px;
+
+            }
+
+            .iconTwo {
+                border-color: #F98149;
+                border-width: 5px;
+
+                border-style: solid;
+                padding: 10px;
+                border-width: 5px;
+                border-radius: 10px;
+                margin: 0; // Reset default margin
+
+                // &:nth-of-type(2n) {
+                //     margin-top: 10px; // Move every second icon down
+                // }
+            }
+
+            span {
+                &:not(:first-child):not(:last-child):nth-of-type(odd) {
+                    margin-top: 70px; // Move every second span down, excluding the first and last
+                }
+            }
+
+        }
+    }
+}
