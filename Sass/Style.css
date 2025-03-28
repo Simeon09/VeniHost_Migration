@@ -177,6 +177,7 @@
 .landingContainer .sectionTwo div:nth-child(2) img {
   width: 80%;
 }
+<<<<<<< HEAD
 
 .landingContainer .sectionThree {
   padding-top: 50px;
@@ -349,4 +350,6 @@
 .landingContainer .sectionFive .card span:not(:first-child):not(:last-child):nth-of-type(odd) {
   margin-top: 70px;
 }
+=======
+>>>>>>> 721668ec565c9162ed7acba9b3d8162e5ff791ee
 /*# sourceMappingURL=Style.css.map */
