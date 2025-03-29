@@ -618,6 +618,7 @@
 .landingContainer .sectionEight {
   padding-left: 50px;
   padding-right: 50px;
+  padding-bottom: 80px;
 }
 
 .landingContainer .sectionEight h1 {
@@ -645,6 +646,7 @@
   -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
   width: 380px;
+  border-radius: 20px;
 }
 
 .landingContainer .sectionEight .MentorCardContainer .MentorCard .best {
@@ -805,5 +807,34 @@
   font-family: "Poppins", sans-serif;
   font-size: 10px;
   margin: 10px 50px;
+}
+
+.landingContainer .sectionNine {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.landingContainer .sectionNine h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.landingContainer .sectionNine h2 span {
+  color: green;
+}
+
+.landingContainer .sectionNine .certification {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
 /*# sourceMappingURL=Style.css.map */

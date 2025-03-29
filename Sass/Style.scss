@@ -485,12 +485,14 @@
     .sectionSeven {
         background-color: #F3F3F3;
         text-align: center;
+
         //padding-top: 30px;
-        h1{
+        h1 {
             font-size: 40px;
             font-family: $font-family;
             padding: 30px 0px;
-            span{
+
+            span {
                 color: $text-colour;
             }
         }
@@ -499,7 +501,7 @@
         .sectionSevenCard {
             display: flex;
             justify-content: space-evenly;
-            
+
 
             .sectionsevensubcard {
                 div:nth-of-type(1) {
@@ -535,7 +537,7 @@
 
                         }
                     }
-                    
+
                 }
 
                 .cardthree {
@@ -547,19 +549,22 @@
                     font-family: $font-family;
                     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); // Subtle shadow;
                     border-radius: 10px;
-                    h1{
+
+                    h1 {
                         font-size: 70px;
                         font-family: $font-family;
                         box-sizing: border-box;
                         margin: 0px;
                         font-weight: bold;
-                        
+
                     }
+
                     position: relative;
                     z-index: 2;
                 }
-                .ornament{
-                    position:relative;
+
+                .ornament {
+                    position: relative;
                     right: -200px;
                     top: 0%;
                     transform: translateY(-50%);
@@ -572,137 +577,185 @@
 
         }
     }
-    .sectionEight{
+
+    .sectionEight {
         padding-left: 50px;
         padding-right: 50px;
-        h1{
-            
+        padding-bottom: 80px;
+
+        h1 {
+
             font-family: $font-family;
             font-size: 55px;
             padding-left: 10px;
-            span{
+
+            span {
                 color: $text-colour;
             }
         }
-        .MentorCardContainer{
+
+        .MentorCardContainer {
             display: flex;
             justify-content: space-between;
             font-family: $font-family;
-            .MentorCard{
+
+            .MentorCard {
                 background-color: #FFFFFF;
-                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); 
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
                 width: 380px;
-                .best{
+                border-radius: 20px;
+
+                .best {
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     gap: 10px;
-                    background-color:#FF8B36;
+                    background-color: #FF8B36;
                     width: 200px;
                     margin: 20px auto;
                     border-radius: 10px;
-                    p{
+
+                    p {
                         box-sizing: border-box;
                         font-family: $font-family;
                         font-size: 15px;
                         color: white;
                         margin: 0px;
-                        padding:3px 0px;
+                        padding: 3px 0px;
                     }
-                    
+
                 }
 
-                div:nth-of-type(2){
+                div:nth-of-type(2) {
                     display: flex;
                     justify-content: space-evenly;
-                    div:nth-of-type(2){
+
+                    div:nth-of-type(2) {
                         display: grid;
                         justify-content: space-between;
-                        h6{
+
+                        h6 {
                             box-sizing: border-box;
                             margin: 0px;
                             font-size: 20px;
-                            font-weight:bold;
+                            font-weight: bold;
 
                         }
-                        p{
+
+                        p {
                             box-sizing: border-box;
                             margin: 0px;
                             padding: 10px;
                             color: $text-colour;
                             margin-left: -10px;
-                            
+
 
                         }
-                        span{
+
+                        span {
                             display: flex;
                             // justify-content: space-evenly;
                             align-items: center;
                             text-align: center;
-                            p{
+
+                            p {
                                 font-size: 10px;
                             }
                         }
-                        .review{
+
+                        .review {
                             display: flex;
                             justify-content: space-around;
                             align-items: center;
-                            p{
+
+                            p {
                                 font-size: 9px;
                             }
                         }
                     }
                 }
-                .NewCardDiv{
+
+                .NewCardDiv {
                     padding-top: 35px;
                     display: flex;
                     justify-content: space-evenly;
-                    div:nth-of-type(2){
+
+                    div:nth-of-type(2) {
+
                         display: grid;
                         justify-content: space-between;
-                        h6{
+
+                        h6 {
                             box-sizing: border-box;
                             margin: 0px;
                             font-size: 20px;
-                            font-weight:bold;
+                            font-weight: bold;
 
                         }
-                        p{
+
+                        p {
                             box-sizing: border-box;
                             margin: 0px;
                             padding: 10px;
                             color: $text-colour;
                             margin-left: -10px;
-                            
+
 
                         }
-                        span{
+
+                        span {
                             display: flex;
                             // justify-content: space-evenly;
                             align-items: center;
                             text-align: center;
-                            p{
+
+                            p {
                                 font-size: 10px;
                             }
                         }
-                        .review{
+
+                        .review {
                             display: flex;
                             justify-content: space-around;
                             align-items: center;
-                            p{
+
+                            p {
                                 font-size: 9px;
                             }
                         }
                     }
 
                 }
-                .commentreview{
+
+                .commentreview {
                     font-family: $font-family;
                     font-size: 10px;
                     margin: 10px 50px;
                 }
             }
 
+        }
+    }
+
+    .sectionNine {
+        padding-left: 50px;
+        padding-right: 50px;
+
+        h2 {
+            font-family: $font-family;
+            font-size: 40px;
+            text-align: center;
+            span{
+                color: green;
+
+            }
+        }
+        .certification{
+            display: flex;
+            justify-content: center;
+            justify-content: space-evenly;
+            padding-top: 30px;
+            padding-bottom: 40px;
         }
     }
 }
