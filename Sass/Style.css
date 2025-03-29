@@ -835,6 +835,93 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   padding-top: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
+}
+
+.landingContainer footer {
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: #003F7D;
+  padding-top: 100px;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+}
+
+.landingContainer footer .footer1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.landingContainer footer .footer1 h3 {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.landingContainer footer .footer1 .input {
+  padding: 10px 40px;
+  background-color: #003F7D;
+  border-top-style: none;
+  border-left: none;
+  border-right: none;
+}
+
+.landingContainer footer .footer1 .btn3 {
+  background-color: #F98149;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px 5px 0px 0px;
+  border-color: #F98149;
+}
+
+.landingContainer footer .footer1 div:nth-of-type(2) ul {
+  list-style-type: none;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-left: -30px;
+}
+
+.landingContainer footer .footer1 div:nth-of-type(2) ul li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.landingContainer footer .footer1 div:nth-of-type(3) ul {
+  list-style-type: none;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-left: -30px;
+}
+
+.landingContainer footer .footer1 div:nth-of-type(3) ul li {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.landingContainer footer .footer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px;
+}
+
+.landingContainer footer .footer2 div:nth-of-type(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
 }
 /*# sourceMappingURL=Style.css.map */

@@ -745,17 +745,103 @@
             font-family: $font-family;
             font-size: 40px;
             text-align: center;
-            span{
+
+            span {
                 color: green;
 
             }
         }
-        .certification{
+
+        .certification {
             display: flex;
             justify-content: center;
             justify-content: space-evenly;
             padding-top: 30px;
-            padding-bottom: 40px;
+            padding-bottom: 60px;
         }
+    }
+
+    footer {
+        padding-right: 50px;
+        padding-left: 50px;
+        background-color: #003F7D;
+        padding-top: 100px;
+        color: #FFFFFF;
+        font-family: $font-family;
+
+        .footer1 {
+            display: flex;
+            justify-content: space-evenly;
+
+            h3 {
+                font-weight: 500;
+                font-size: 25px;
+            }
+
+            .input {
+                padding: 10px 40px;
+                background-color: #003F7D;
+                border-top-style: none;
+                border-left: none;
+                border-right: none;
+            }
+
+            .btn3 {
+                background-color: #F98149;
+                padding-bottom: 10px;
+                padding-right: 10px;
+                padding-left: 10px;
+                border-radius: 5px 5px 0px 0px;
+                border-color: #F98149;
+            }
+
+            div:nth-of-type(2) {
+                ul {
+                    list-style-type: none;
+
+                    li {
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                    }
+
+                    align-items: end;
+                    align-self: flex-end;
+
+                    margin-left: -30px;
+                }
+
+            }
+
+            div:nth-of-type(3) {
+                ul {
+                    list-style-type: none;
+
+
+                    align-items: end;
+                    align-self: flex-end;
+
+                    margin-left: -30px;
+
+                    li {
+                        padding-top: 5px;
+                        padding-bottom: 10px;
+                    }
+
+                }
+
+
+            }
+        }
+        .footer2{
+            display: flex;
+            justify-content: space-between;
+            padding: 100px;
+            div:nth-of-type(1){
+                display: flex;
+                gap: 30px;
+            }
+            
+        }
+
     }
 }
