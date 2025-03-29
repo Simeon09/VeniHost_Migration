@@ -511,6 +511,17 @@
 
 .landingContainer .sectionSeven {
   background-color: #F3F3F3;
+  text-align: center;
+}
+
+.landingContainer .sectionSeven h1 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  padding: 30px 0px;
+}
+
+.landingContainer .sectionSeven h1 span {
+  color: green;
 }
 
 .landingContainer .sectionSeven .sectionSevenCard {
@@ -526,17 +537,23 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 400px;
 }
 
 .landingContainer .sectionSeven .sectionSevenCard .sectionsevensubcard div:nth-of-type(1) .cardOne {
   display: -ms-grid;
   display: grid;
   background-color: white;
-  width: 200px;
+  width: auto;
+  padding: 0px 20px;
   text-align: center;
+  font-family: "Poppins", sans-serif;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
 }
 
 .landingContainer .sectionSeven .sectionSevenCard .sectionsevensubcard div:nth-of-type(1) .cardOne span {
@@ -546,8 +563,247 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.landingContainer .sectionSeven .sectionSevenCard .sectionsevensubcard div:nth-of-type(1) .cardOne h1 {
+  font-size: 50px;
+  margin: 0px;
+  padding-top: 25px;
+  color: green;
+  font-weight: bolder;
+}
+
+.landingContainer .sectionSeven .sectionSevenCard .sectionsevensubcard .cardthree {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.landingContainer .sectionSeven .sectionSevenCard .sectionsevensubcard .cardthree h1 {
+  font-size: 70px;
+  font-family: "Poppins", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.landingContainer .sectionSeven .sectionSevenCard .sectionsevensubcard .ornament {
+  position: relative;
+  right: -200px;
+  top: 0%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 1;
+  max-width: 50%;
+  margin-bottom: -70px;
+}
+
+.landingContainer .sectionEight {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.landingContainer .sectionEight h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 55px;
+  padding-left: 10px;
+}
+
+.landingContainer .sectionEight h1 span {
+  color: green;
+}
+
+.landingContainer .sectionEight .MentorCardContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  width: 380px;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard .best {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  background-color: #FF8B36;
+  width: 200px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard .best p {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: white;
+  margin: 0px;
+  padding: 3px 0px;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard div:nth-of-type(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard div:nth-of-type(2) div:nth-of-type(2) {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard div:nth-of-type(2) div:nth-of-type(2) h6 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard div:nth-of-type(2) div:nth-of-type(2) p {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 10px;
+  color: green;
+  margin-left: -10px;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard div:nth-of-type(2) div:nth-of-type(2) span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard div:nth-of-type(2) div:nth-of-type(2) span p {
+  font-size: 10px;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard div:nth-of-type(2) div:nth-of-type(2) .review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard div:nth-of-type(2) div:nth-of-type(2) .review p {
+  font-size: 9px;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard .NewCardDiv {
+  padding-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard .NewCardDiv div:nth-of-type(2) {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard .NewCardDiv div:nth-of-type(2) h6 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard .NewCardDiv div:nth-of-type(2) p {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 10px;
+  color: green;
+  margin-left: -10px;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard .NewCardDiv div:nth-of-type(2) span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard .NewCardDiv div:nth-of-type(2) span p {
+  font-size: 10px;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard .NewCardDiv div:nth-of-type(2) .review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard .NewCardDiv div:nth-of-type(2) .review p {
+  font-size: 9px;
+}
+
+.landingContainer .sectionEight .MentorCardContainer .MentorCard .commentreview {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  margin: 10px 50px;
 }
 /*# sourceMappingURL=Style.css.map */
