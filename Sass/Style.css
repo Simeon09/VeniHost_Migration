@@ -924,4 +924,189 @@
   display: flex;
   gap: 30px;
 }
+
+.signupContiner .navBar {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+}
+
+.signupContiner .navBar > div:nth-child(1) img {
+  width: 50%;
+}
+
+.signupContiner .navBar > div:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  color: #8A948C;
+}
+
+.signupContiner .navBar > div:nth-child(2) ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 700px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 22;
+}
+
+.signupContiner .navBar > div:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 50px;
+}
+
+.signupContiner .navBar > div:nth-child(3) button:nth-child(1) {
+  color: #F98149;
+  padding: 10px 40px 10px 40px;
+  background-color: #fff;
+  border-color: green;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 28;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.signupContiner .navBar > div:nth-child(3) button:nth-child(2) {
+  color: #F98149;
+  padding: 10px 40px 10px 40px;
+  color: #ffff;
+  border-color: green;
+  background-color: green;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 28;
+  cursor: pointer;
+}
+
+.signupContiner .navBar > div:nth-child(3) button:hover {
+  background-color: green;
+}
+
+.signupContiner .navBar > div:nth-child(3) .Btn2:hover {
+  background-color: white;
+  color: green;
+}
+
+.signupContiner footer {
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: #003F7D;
+  padding-top: 100px;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+}
+
+.signupContiner footer .footer1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.signupContiner footer .footer1 h3 {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.signupContiner footer .footer1 .input {
+  padding: 10px 40px;
+  background-color: #003F7D;
+  border-top-style: none;
+  border-left: none;
+  border-right: none;
+}
+
+.signupContiner footer .footer1 .btn3 {
+  background-color: #F98149;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px 5px 0px 0px;
+  border-color: #F98149;
+}
+
+.signupContiner footer .footer1 div:nth-of-type(2) ul {
+  list-style-type: none;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-left: -30px;
+}
+
+.signupContiner footer .footer1 div:nth-of-type(2) ul li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.signupContiner footer .footer1 div:nth-of-type(3) ul {
+  list-style-type: none;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-left: -30px;
+}
+
+.signupContiner footer .footer1 div:nth-of-type(3) ul li {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.signupContiner footer .footer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px;
+}
+
+.signupContiner footer .footer2 div:nth-of-type(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.signupContiner .SignUP {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 /*# sourceMappingURL=Style.css.map */

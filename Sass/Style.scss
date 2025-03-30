@@ -845,3 +845,170 @@
 
     }
 }
+.signupContiner{
+    .navBar {
+        padding-left: 50px;
+        padding-right: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+
+        >div:nth-child(1) {
+            img {
+                width: 50%;
+            }
+        }
+
+        >div:nth-child(2) {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            color: #8A948C;
+
+            ul {
+                list-style-type: none;
+                display: flex;
+                justify-content: space-between;
+                width: 700px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 500;
+                font-style: medium;
+                font-size: 22;
+            }
+        }
+
+        >div:nth-child(3) {
+            display: flex;
+            justify-content: space-around;
+            gap: 50px;
+
+            button:nth-child(1) {
+                color: #F98149;
+                padding: 10px 40px 10px 40px;
+                background-color: #fff;
+                border-color: green;
+                border-radius: 5px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 300;
+                font-size: 28;
+                cursor: pointer;
+                margin-left: 10px;
+            }
+
+            button:nth-child(2) {
+                color: #F98149;
+                padding: 10px 40px 10px 40px;
+                color: #ffff;
+                border-color: green;
+                background-color: green;
+                border-radius: 5px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 300;
+                font-size: 28;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: green;
+
+            }
+
+            .Btn2:hover {
+                background-color: white;
+                color: green;
+            }
+
+
+
+        }
+    }
+    footer {
+        padding-right: 50px;
+        padding-left: 50px;
+        background-color: #003F7D;
+        padding-top: 100px;
+        color: #FFFFFF;
+        font-family: $font-family;
+
+        .footer1 {
+            display: flex;
+            justify-content: space-evenly;
+
+            h3 {
+                font-weight: 500;
+                font-size: 25px;
+            }
+
+            .input {
+                padding: 10px 40px;
+                background-color: #003F7D;
+                border-top-style: none;
+                border-left: none;
+                border-right: none;
+            }
+
+            .btn3 {
+                background-color: #F98149;
+                padding-bottom: 10px;
+                padding-right: 10px;
+                padding-left: 10px;
+                border-radius: 5px 5px 0px 0px;
+                border-color: #F98149;
+            }
+
+            div:nth-of-type(2) {
+                ul {
+                    list-style-type: none;
+
+                    li {
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                    }
+
+                    align-items: end;
+                    align-self: flex-end;
+
+                    margin-left: -30px;
+                }
+
+            }
+
+            div:nth-of-type(3) {
+                ul {
+                    list-style-type: none;
+
+
+                    align-items: end;
+                    align-self: flex-end;
+
+                    margin-left: -30px;
+
+                    li {
+                        padding-top: 5px;
+                        padding-bottom: 10px;
+                    }
+
+                }
+
+
+            }
+        }
+        .footer2{
+            display: flex;
+            justify-content: space-between;
+            padding: 100px;
+            div:nth-of-type(1){
+                display: flex;
+                gap: 30px;
+            }
+            
+        }
+
+    }
+    .SignUP{
+    display: flex;
+    justify-content:space-between;
+    }
+
+}
