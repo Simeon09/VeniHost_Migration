@@ -1290,4 +1290,372 @@
 .signupContiner .form .agree span {
   color: green;
 }
+
+.LoginContainar .navBar {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+}
+
+.LoginContainar .navBar > div:nth-child(1) img {
+  width: 50%;
+}
+
+.LoginContainar .navBar > div:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  color: #8A948C;
+}
+
+.LoginContainar .navBar > div:nth-child(2) ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 700px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 22;
+}
+
+.LoginContainar .navBar > div:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 50px;
+}
+
+.LoginContainar .navBar > div:nth-child(3) button:nth-child(1) {
+  color: #F98149;
+  padding: 10px 40px 10px 40px;
+  background-color: #fff;
+  border-color: green;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 28;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.LoginContainar .navBar > div:nth-child(3) button:nth-child(2) {
+  color: #F98149;
+  padding: 10px 40px 10px 40px;
+  color: #ffff;
+  border-color: green;
+  background-color: green;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 28;
+  cursor: pointer;
+}
+
+.LoginContainar .navBar > div:nth-child(3) button:hover {
+  background-color: green;
+}
+
+.LoginContainar .navBar > div:nth-child(3) .Btn2:hover {
+  background-color: white;
+  color: green;
+}
+
+.LoginContainar footer {
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: #003F7D;
+  padding-top: 100px;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+}
+
+.LoginContainar footer .footer1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.LoginContainar footer .footer1 h3 {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.LoginContainar footer .footer1 .input {
+  padding: 10px 40px;
+  background-color: #003F7D;
+  border-top-style: none;
+  border-left: none;
+  border-right: none;
+}
+
+.LoginContainar footer .footer1 .btn3 {
+  background-color: #F98149;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px 5px 0px 0px;
+  border-color: #F98149;
+}
+
+.LoginContainar footer .footer1 div:nth-of-type(2) ul {
+  list-style-type: none;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-left: -30px;
+}
+
+.LoginContainar footer .footer1 div:nth-of-type(2) ul li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.LoginContainar footer .footer1 div:nth-of-type(3) ul {
+  list-style-type: none;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-left: -30px;
+}
+
+.LoginContainar footer .footer1 div:nth-of-type(3) ul li {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.LoginContainar footer .footer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px;
+}
+
+.LoginContainar footer .footer2 div:nth-of-type(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.LoginContainar .Login {
+  padding: 50px;
+  padding-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.LoginContainar .form {
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  padding: 30px 30px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.LoginContainar .form h3 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  margin: 0px;
+  padding: 20px 0px 30px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.LoginContainar .form h3 span {
+  color: green;
+}
+
+.LoginContainar .form .input {
+  margin-bottom: 20px;
+}
+
+.LoginContainar .form .input input {
+  width: 350px;
+  padding: 10px;
+  color: #B1B1B1;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #B1B1B1;
+}
+
+.LoginContainar .form .input input:focus {
+  outline: none;
+  border-color: none;
+  color: black;
+}
+
+.LoginContainar .form .Cr8 {
+  padding-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.LoginContainar .form .Cr8 button {
+  padding: 10px 20px;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.LoginContainar .form .Cr8 button:hover {
+  background-color: white;
+  color: green;
+}
+
+.LoginContainar .form .Cr8 p {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  color: #B1B1B1;
+  text-align: center;
+}
+
+.LoginContainar .form .Cr8 p span a {
+  text-decoration: none;
+  color: green;
+}
+
+.LoginContainar .form .divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.LoginContainar .form .divider hr {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  /* Makes the lines flexible to fill the space */
+  border: none;
+  /* Removes the default border */
+  border-top: 1px solid #ccc;
+  /* Adds a thin horizontal line */
+  margin: 0 10px;
+  /* Adds spacing between the line and the text */
+}
+
+.LoginContainar .form .divider span {
+  font-size: 16px;
+  /* Adjust the font size */
+  color: #333;
+  /* Text color */
+  font-weight: bold;
+  /* Make the text bold */
+}
+
+.LoginContainar .form .socials {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+.LoginContainar .form .socials button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 250px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.LoginContainar .form .socials button:nth-of-type(1) {
+  background-color: #F3F3F3;
+  border: #F3F3F3;
+  -webkit-columns: #B1B1B1;
+          columns: #B1B1B1;
+}
+
+.LoginContainar .form .socials button:nth-of-type(1):hover {
+  background-color: white;
+  color: green;
+}
+
+.LoginContainar .form .socials button:nth-of-type(2) {
+  background-color: #3575DC;
+  color: white;
+  border-color: #3575DC;
+}
+
+.LoginContainar .form .socials button:nth-of-type(2):hover {
+  background-color: white;
+  color: green;
+}
+
+.LoginContainar .form .socials button:nth-of-type(3) {
+  background-color: #404040;
+  color: white;
+  border-color: #404040;
+}
+
+.LoginContainar .form .socials button:nth-of-type(3):hover {
+  background-color: white;
+  color: green;
+}
+
+.LoginContainar .form .agree {
+  width: 250px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px auto;
+  font-size: 14px;
+}
+
+.LoginContainar .form .agree span {
+  color: green;
+}
 /*# sourceMappingURL=Style.css.map */
