@@ -1102,11 +1102,192 @@
 }
 
 .signupContiner .SignUP {
+  padding: 50px;
+  padding-left: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signupContiner .form {
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  padding: 30px 30px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.signupContiner .form h3 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  margin: 0px;
+  padding: 20px 0px 30px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.signupContiner .form h3 span {
+  color: green;
+}
+
+.signupContiner .form .input {
+  margin-bottom: 20px;
+}
+
+.signupContiner .form .input input {
+  width: 350px;
+  padding: 10px;
+  color: #B1B1B1;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #B1B1B1;
+}
+
+.signupContiner .form .input input:focus {
+  outline: none;
+  border-color: none;
+  color: black;
+}
+
+.signupContiner .form .Cr8 {
+  padding-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.signupContiner .form .Cr8 button {
+  padding: 10px 20px;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.signupContiner .form .Cr8 button:hover {
+  background-color: white;
+  color: green;
+}
+
+.signupContiner .form .Cr8 p {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  color: #B1B1B1;
+  text-align: center;
+}
+
+.signupContiner .form .Cr8 p span a {
+  text-decoration: none;
+  color: green;
+}
+
+.signupContiner .form .divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.signupContiner .form .divider hr {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  /* Makes the lines flexible to fill the space */
+  border: none;
+  /* Removes the default border */
+  border-top: 1px solid #ccc;
+  /* Adds a thin horizontal line */
+  margin: 0 10px;
+  /* Adds spacing between the line and the text */
+}
+
+.signupContiner .form .divider span {
+  font-size: 16px;
+  /* Adjust the font size */
+  color: #333;
+  /* Text color */
+  font-weight: bold;
+  /* Make the text bold */
+}
+
+.signupContiner .form .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+.signupContiner .form .socials button {
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.signupContiner .form .socials button:nth-of-type(1) {
+  background-color: #F3F3F3;
+  border: #F3F3F3;
+  -webkit-columns: #B1B1B1;
+          columns: #B1B1B1;
+}
+
+.signupContiner .form .socials button:nth-of-type(1):hover {
+  background-color: white;
+  color: green;
+}
+
+.signupContiner .form .socials button:nth-of-type(2) {
+  background-color: #3575DC;
+  color: white;
+  border-color: #3575DC;
+}
+
+.signupContiner .form .socials button:nth-of-type(2):hover {
+  background-color: white;
+  color: green;
+}
+
+.signupContiner .form .socials button:nth-of-type(3) {
+  background-color: #404040;
+  color: white;
+  border-color: #404040;
+}
+
+.signupContiner .form .socials button:nth-of-type(3):hover {
+  background-color: white;
+  color: green;
+}
+
+.signupContiner .form .agree {
+  width: 250px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px auto;
+  font-size: 14px;
+}
+
+.signupContiner .form .agree span {
+  color: green;
 }
 /*# sourceMappingURL=Style.css.map */

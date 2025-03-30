@@ -832,20 +832,24 @@
 
             }
         }
-        .footer2{
+
+        .footer2 {
             display: flex;
             justify-content: space-between;
             padding: 100px;
-            div:nth-of-type(1){
+
+            div:nth-of-type(1) {
                 display: flex;
                 gap: 30px;
             }
-            
+
         }
 
     }
 }
-.signupContiner{
+
+.signupContiner {
+
     .navBar {
         padding-left: 50px;
         padding-right: 50px;
@@ -923,6 +927,7 @@
 
         }
     }
+
     footer {
         padding-right: 50px;
         padding-left: 50px;
@@ -994,21 +999,196 @@
 
             }
         }
-        .footer2{
+
+        .footer2 {
             display: flex;
             justify-content: space-between;
             padding: 100px;
-            div:nth-of-type(1){
+
+            div:nth-of-type(1) {
                 display: flex;
                 gap: 30px;
             }
-            
+
         }
 
     }
-    .SignUP{
-    display: flex;
-    justify-content:space-between;
+
+    .SignUP {
+        padding: 50px;
+        padding-left: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .form {
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        padding: 30px 30px;
+        width: 400px;
+        border-radius: 20px;
+
+        h3 {
+            text-align: center;
+            font-family: $font-family;
+            font-size: 38px;
+            margin: 0px;
+            padding: 20px 0px 30px 0px;
+            box-sizing: border-box;
+
+            span {
+                color: green;
+            }
+
+        }
+
+        .input {
+            //padding-left:30px;
+            margin-bottom: 20px;
+
+            input {
+                width: 350px;
+                padding: 10px;
+                color: $input-color;
+                font-family: $font-family;
+                font-size: 18px;
+                font-weight: 200;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-color: $input-color;
+
+            }
+
+            input:focus {
+                outline: none;
+                border-color: none;
+                color: black;
+            }
+
+
+        }
+
+        .Cr8 {
+            //padding: 20px 0px;
+            padding-top: 20px;
+            display: grid;
+            justify-content: center;
+
+            button {
+                padding: 10px 20px;
+                color: white;
+                background-color: $text-colour;
+                border-radius: 5px;
+                font-family: $font-family;
+                font-size: 16px;
+
+                &:hover {
+                    background-color: white;
+                    color: $text-colour;
+                }
+
+            }
+
+            p {
+                font-family: $font-family;
+                font-size: 10px;
+                color: $input-color;
+                text-align: center;
+
+                span {
+                    a {
+                        text-decoration: none;
+                        color: $text-colour;
+                    }
+                }
+            }
+        }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin: 20px 0;
+            // margin-bottom: 10px;
+        }
+
+        .divider hr {
+            flex: 1;
+            /* Makes the lines flexible to fill the space */
+            border: none;
+            /* Removes the default border */
+            border-top: 1px solid #ccc;
+            /* Adds a thin horizontal line */
+            margin: 0 10px;
+            /* Adds spacing between the line and the text */
+        }
+
+        .divider span {
+            font-size: 16px;
+            /* Adjust the font size */
+            color: #333;
+            /* Text color */
+            font-weight: bold;
+            /* Make the text bold */
+        }
+
+        .socials {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+            button {
+                padding: 5px 20px;
+                border-radius: 5px;
+
+            }
+
+            button:nth-of-type(1) {
+                background-color: #F3F3F3;
+                border: #F3F3F3;
+                columns: $input-color;
+
+                &:hover {
+                    background-color: white;
+                    color: $text-colour;
+                }
+            }
+
+            button:nth-of-type(2) {
+                background-color: #3575DC;
+                color: white;
+                border-color: #3575DC;
+
+                &:hover {
+                    background-color: white;
+                    color: $text-colour;
+                }
+            }
+
+            button:nth-of-type(3) {
+                background-color: #404040;
+                color: white;
+                border-color: #404040;
+
+                &:hover {
+                    background-color: white;
+                    color: $text-colour;
+                }
+            }
+
+        }
+        .agree {
+            width: 250px;
+            text-align: center;
+            justify-content: center;
+            margin: 15px auto;
+            font-size: 14px;
+            span{
+                color:$text-colour;
+            }
+        }
     }
 
 }
